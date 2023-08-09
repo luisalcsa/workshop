@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class ComentDto implements Serializable {
-
+    private static final long serialVersionUID = 1L;
     private String text;
     private Date date;
 
@@ -35,11 +35,11 @@ public class ComentDto implements Serializable {
         this.date = date;
     }
 
-    public AuthorDto getAuthorDto() {
+    public AuthorDto getAuthor() {
         return authorDto;
     }
 
-    public void setAuthorDto(AuthorDto authorDto) {
+    public void setAuthor(AuthorDto authorDTO) {
         this.authorDto = authorDto;
     }
 }

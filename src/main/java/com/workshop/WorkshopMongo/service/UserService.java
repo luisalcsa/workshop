@@ -4,7 +4,6 @@ import com.workshop.WorkshopMongo.domain.User;
 import com.workshop.WorkshopMongo.dto.UserDto;
 import com.workshop.WorkshopMongo.repository.UserRepository;
 import com.workshop.WorkshopMongo.services.exception.ObjectNotFoundException;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
